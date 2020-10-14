@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	body{
+		background-image: url(images/ticket2.jpg);
+		background-color: #cccccc;
+		text-align : center;
+		font-size: 35px;
+	}
+	#form{
+		line-height: 2;
+	}
+	
+</style>
+<meta charset="ISO-8859-1">
+<title>Book Tickets</title>
+</head>
+<body>
+	<h1>PLANE YOUR JOURNEY</h1>
+	<div id="form">
+	<form action="ticketsBooking">
+		Name of Passenger: <input type="text" name="name" placeholder="Ed Shareen" width="30" height="10"><br/>
+		From: <select name="source">
+			<option>Trivandaram</option>
+			<option>Kolkata</option>
+			<option>Bangalore</option>
+			<option>Chennai</option>
+			<option>Goa</option>
+			<option>Delhi</option>
+			<option>Hydrabad</option>
+			<option>Mumbai</option>
+			<option>Vishakapatnam</option>
+		</select><br/>
+		To: <select name="destination">
+			<option>Kolkata</option>
+			<option>Trivandram</option>
+			<option>Bangalore</option>
+			<option>Chennai</option>
+			<option>Goa</option>
+			<option>Delhi</option>
+			<option>Hydrabad</option>
+			<option>Mumbai</option>
+			<option>Vishakapatnam</option>
+		</select><br/>
+		Booking Date: <input type="text" name="date" placeholder="DD/MM/YYYY"><br/>
+		Class:<select name="class">
+			<option>Economic</option>
+			<option>Business</option>
+		</select><br/>
+		Passenger Detail: <select name="detail">
+			<option>Adult(18+)</option>
+			<option>Child(2-17)</option>
+			<option>Infant(under 2)</option>
+		</select> <br/>
+		<input type="submit" value="Book Now">
+	</form>
+	</div>
+</body>
+</html>
